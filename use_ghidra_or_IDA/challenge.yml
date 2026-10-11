@@ -1,0 +1,22 @@
+name: "use_ghidra_or_IDA"
+author: "becem69"
+category: "Reverse Engineering"
+description: |
+    The binary takes a number as an argument. It could be anything. 1? 2? Your IQ? Your age?
+
+    One number unlocks the flag. Good luck guessing. (Or just use a decompiler like a normal person.)
+
+    Flag format: `Spark{...}`
+value: 500
+type: dynamic
+extra:
+    initial: 500
+    decay: 15
+minimum: 100
+state: visible
+flags:
+    - type: "static"
+      content: "Spark{d3c0mpil3r_is_7h3_k3y}"
+version: "0.1"
+files:
+    - Handout/use_ghidra_or_IDA

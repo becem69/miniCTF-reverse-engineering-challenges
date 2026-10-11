@@ -1,0 +1,22 @@
+name: "intro_to_obfuscation"
+author: "becem69"
+category: "Reverse Engineering"
+description: |
+    Someone renamed all their variables to combinations of O and 0 and thought they were a hacker.
+
+    Squint hard enough and the truth reveals itself. Or just... read the code.
+
+    Flag format: `Spark{...}`
+value: 500
+type: dynamic
+extra:
+    initial: 500
+    decay: 15
+minimum: 100
+state: visible
+flags:
+    - type: "static"
+      content: "Spark{1n7r0_70_0bfu5c4710n_15_345y}"
+version: "0.1"
+files:
+    - Handout/intro_to_obfuscation.py

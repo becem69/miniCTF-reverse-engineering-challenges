@@ -1,0 +1,22 @@
+name: "top_sec"
+author: "becem69"
+category: "Reverse Engineering"
+description: |
+    The developer named it "top_sec" and felt very proud of themselves.
+
+    They did not know that strings are forever. Neither is their dignity after this one.
+
+    Flag format: `Spark{...}`
+value: 500
+type: dynamic
+extra:
+    initial: 500
+    decay: 15
+minimum: 100
+state: visible
+flags:
+    - type: "static"
+      content: "Spark{7h47s_imp0ssibl3_y0u_f0und_7h3_fl4g!!!}"
+version: "0.1"
+files:
+    - Handout/top_sec

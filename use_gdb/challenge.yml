@@ -1,0 +1,22 @@
+name: "use_gdb"
+author: "becem69"
+category: "Reverse Engineering"
+description: |
+    The bouncer at the club keeps saying "Access denied." no matter what you do.
+
+    Good thing you know someone who can have a little... chat with him at runtime.
+
+    Flag format: `Spark{...}`
+value: 500
+type: dynamic
+extra:
+    initial: 500
+    decay: 15
+minimum: 100
+state: visible
+flags:
+    - type: "static"
+      content: "Spark{gdb_m4kes_it_3asy}"
+version: "0.1"
+files:
+    - Handout/use_gdb

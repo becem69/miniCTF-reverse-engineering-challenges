@@ -1,0 +1,22 @@
+name: "Run_Me"
+author: "becem69"
+category: "Reverse Engineering"
+description: |
+    They told me the flag was locked away in a heavily protected vault guarded by dragons and ancient curses.
+
+    Turns out you just had to run the program.
+
+    Flag format: `Spark{...}`
+value: 500
+type: dynamic
+extra:
+    initial: 500
+    decay: 15
+minimum: 100
+state: visible
+flags:
+    - type: "static"
+      content: "Spark{7ry_70_run_furs7}"
+version: "0.1"
+files:
+    - Handout/Run_Me

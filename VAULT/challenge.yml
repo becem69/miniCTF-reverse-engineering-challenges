@@ -1,0 +1,22 @@
+name: "VAULT"
+author: "becem69"
+category: "Reverse Engineering"
+description: |
+    Welcome to the vault. Nothing to see here. Move along.
+
+    (There is absolutely something to see here. It is right there in the file. Please look at the file.)
+
+    Flag format: `Spark{...}`
+value: 500
+type: dynamic
+extra:
+    initial: 500
+    decay: 15
+minimum: 100
+state: visible
+flags:
+    - type: "static"
+      content: "Spark{JS_15_n07_f0r_w3b_0nly}"
+version: "0.1"
+files:
+    - Handout/VAULT.js
