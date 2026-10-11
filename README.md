@@ -127,4 +127,4 @@ Each challenge follows the same layout:
 
 ## Author
 
-**becem69** - [becem69.github.io](https://becem69.github.io)
+[**becem69**](https://becem69.github.io)
